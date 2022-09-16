@@ -1,0 +1,14 @@
+1.When you commit a project to your GitHub repository, Git knows which files to ignore 
+due to the gitignore file. The repository's root contains gitignore. Avoid / directories.
+
+2.The beginning of the main branch is moved to the end of the feature branch by a fast-forward merge. 
+This maintains the sequence and complete integration of all feature branch commits into the main branch.
+
+3.It's typical for numerous developers to exchange and work on the same source code in a collaborative setting. Some programmers implement new features while others address bugs. We need a system to handle many iterations of the same code base, separate their work from the original code base, and separate their work from others because there is so much to accomplish. 
+Git can later easily combine versions thanks to this.
+
+4.There is only one remote with the name "origin," however you are free to have as many as you like. 
+Except for the fact that it is the default remote established by Git when you clone an 
+existing repository, the remote designated "origin" is not exceptional in any way. 
+You can set up certain branches to track branches from a second remote rather than the origin, push to 
+and pull from that remote,and establish a second remote.
